@@ -986,7 +986,6 @@ nav img {
 #burgerShopPage {
     width: 100%;
     background: rgba(101, 26, 26, 0.067);
-    /* background-color: black; */
     padding-bottom: 5vw;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
 }

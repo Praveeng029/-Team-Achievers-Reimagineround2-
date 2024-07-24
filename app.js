@@ -668,17 +668,3 @@ bgChange.to("#menu",{
   backgroundColor:"black"
 },"pq1")
 
-var bgChange = gsap.timeline({scrollTrigger:{
-  trigger:"#burgerShopPage",
-  // markers:true,
-  start:"0% 70%",
-  end:"0% 20%",
-  scrub:1,
-  duration:1
-}});
-bgChange.to("#menu",{
-  backgroundColor:" rgba(101, 26, 26, 0.067)"
-},"mn")
-bgChange.from("#burgerShopPage",{
-  backgroundColor:"black"
-},"mn")
